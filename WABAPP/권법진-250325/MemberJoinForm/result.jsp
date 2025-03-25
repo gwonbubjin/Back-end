@@ -1,19 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%
-    // 한글 깨짐 방지
+    
     request.setCharacterEncoding("UTF-8");
 
-    // 입력된 데이터 가져오기
+
     String name = request.getParameter("name");
     String email = request.getParameter("email");
     String password = request.getParameter("password");
     String gender = request.getParameter("gender");
     String country = request.getParameter("country");
 
-    // 체크박스는 여러 개 선택될 수 있으므로 배열로 받기
+   
     String[] interests = request.getParameterValues("interests");
 
-    // 체크박스 선택값을 문자열로 변환
+    
     String interestsStr = "없음";
     if (interests != null) {
         interestsStr = String.join(", ", interests);
