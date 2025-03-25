@@ -2,12 +2,12 @@
 <%
 
 request.setCharacterEncoding("UTF-8");
-    // 사용자가 입력한 데이터 가져오기
+    
     String name = request.getParameter("name");
     String title = request.getParameter("title");
     String content = request.getParameter("content");
 
-    // 입력된 값이 null일 경우 예외처리
+    
     if (name == null || title == null || content == null) {
         name = "익명";
         title = "제목 없음";
