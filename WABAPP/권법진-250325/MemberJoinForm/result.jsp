@@ -30,7 +30,7 @@
     <h2>가입 완료</h2>
     <p><strong>이름:</strong> <%= name %></p>
     <p><strong>이메일:</strong> <%= email %></p>
-    <p><strong>비밀번호:</strong> <%= password %> (보안상 평문 저장은 금지!)</p>
+    <p><strong>비밀번호:</strong> <%= password %> </p>
     <p><strong>성별:</strong> <%= gender %></p>
     <p><strong>관심 분야:</strong> <%= interestsStr %></p>
     <p><strong>국가:</strong> <%= country %></p>
