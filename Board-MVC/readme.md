@@ -22,11 +22,11 @@ JSP/Servlet 기반의 간단한 게시판(목록/상세/등록/수정/삭제 + �
 
 * **글 수정(Update)**
 
-  ![글 수정](docs/screens/04_edit.png)
+  ![글 수정](docs/screens/05_detail.png)
 
 * **상세보기(Detail)**
 
-  ![상세보기](docs/screens/05_detail.png)
+  ![상세 보기기](docs/screens/04_edit.png)
 
 > 파일명 예시: `01_home.png, 02_list.png, 03_create.png, 04_edit.png, 05_detail.png`
 
