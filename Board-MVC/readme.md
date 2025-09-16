@@ -2,13 +2,11 @@
 
 JSP/Servlet 기반의 간단한 게시판(목록/상세/등록/수정/삭제 + 페이징) 학습/과제용 프로젝트입니다. Tomcat의 **JNDI DataSource**로 MySQL에 연결합니다.
 
-[📥 프로젝트 전체 다운로드](./board-mvc.zip?raw=true)
+[📥 프로젝트 전체 다운로드는 여기를 클릭해주세요](./board-mvc.zip?raw=true)
 
 ---
 
 ## 📸 Screenshots
-
-> `docs/screens/` 폴더에 아래 파일명을 그대로 넣어 주세요. (GitHub는 PNG/JPG/GIF 모두 표시 가능)
 
 * **처음 화면**
 
